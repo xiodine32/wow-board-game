@@ -1,0 +1,67 @@
+@keyframes slideIn {
+	from {transform: translateY(100%); }
+	to {transform: translateY(0%); }
+}
+
+@keyframes slideOut {
+	from {transform: translateY(0%); }
+	to {transform: translateY(100%); }
+}
+
+.bg-violet {
+	background-color: #E68AE6;
+}
+.btn.btn-violet {
+	color: #fff;
+	background-color: #8F1F8F;
+	border-color: #8F1F8F;
+}
+.btn.btn-violet:hover {
+	background-color: #701870;
+	border-color: #701870;
+}
+.btn.btn-violet:active {
+	background-color: #701870;
+	border-color: #5C145C;
+}
+.block-45px {
+	height:45px;
+}
+.block-30px {
+	height:30px;
+}
+.no-action {
+	width: 0 !important;
+	display:block;
+	position: absolute;
+	overflow: hidden;
+	/*opacity: 0;*/
+}
+.data {
+}
+.data p {
+	padding:2px 10px;
+	display:inline-block;
+	opacity:0.8;
+}
+.aligner {
+	position: relative;
+	display:block;
+}
+.aligner.top {
+	top:0;
+}
+.aligner.bottom {
+	top:-24px;
+}
+.data.right {
+	text-align:right;
+	position:relative;
+	top:-34px;
+}
+.contain {
+	height:0;
+}
+.data.left {
+
+}
