@@ -13,7 +13,7 @@
 	</div>
 	<div class="btn-group" ng-class="hasOpacity">
 		<a class="btn btn-sm btn-danger visible-xs" ng-click="mobReds=mobReds-1">-</a>
-		<a class="btn btn-sm btn-danger visible-xs" ng-click="mobReds=mobReds+1">+</a>
+		<a class="btn btn-sm btn-danger visible-xs" ng-click="mobReds=mobReds+1">+</a> 
 	</div>
 </div>
 <div class="row">
@@ -28,7 +28,7 @@
 				</div>
 			</div>
 		</div>
-		<img src="res/img/{{mobType}}.png" alt="{{mobType}} image" style="width:100%;">
+		<img src="res/img/{{mobType}}.png" alt="{{mobType}} image" style="width:100%;" class="img-round">
 		<div class="contain">
 			<div class="aligner bottom">
 				<div class="data left">

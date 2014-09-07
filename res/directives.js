@@ -5,7 +5,7 @@ app.directive('mob',function () {
 		restrict: 'A',
 		templateUrl: 'template/mob.php',
 		scope: {
-			mobs: "="
+			mobs: "=mob"
 		},
 		link: function (scope, elements, attr) {
 			scope.mobType = attr.type;

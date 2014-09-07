@@ -5,10 +5,26 @@
 <form ng-submit="submitMobs(mobs)" class="form" role="form">
 	<div class="form-group">
 		<div class="row">
-			<div type="duck" class="col-md-3 col-sm-4 col-xs-6" mob mobs="mobs"></div>
-			<div type="duck" class="col-md-3 col-sm-4 col-xs-6" mob mobs="mobs"></div>
-			<div type="duck" class="col-md-3 col-sm-4 col-xs-6" mob mobs="mobs"></div>
-			<div type="boss" class="col-md-3 col-sm-4 col-xs-6" mob mobs="mobs"></div>
+			<div type="gnoll" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="scarlet_crusader" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="spider" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="worgen" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="wildkin" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="drake" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="ogre" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="doom_guard" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="infernal" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="yeti" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="ooze" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="arakkoa" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="moarg" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="wrath_guard" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="shivan" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="fungal_giant" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="murloc" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="ghoul" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="naga" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
+			<div type="wraith" class="col-md-3 col-sm-4 col-xs-6" mob="mobs"></div>
 		</div>
 
 		<div class="form-group" ng-hide="mobs.count==0">
